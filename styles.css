@@ -50,11 +50,15 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 #flex-section3 .tags ul {
-
+	list-style-type: none;	
+	justify-content: space-between;
 }
 
 /* end Flexbox Part 3 */
