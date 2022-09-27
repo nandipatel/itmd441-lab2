@@ -92,7 +92,7 @@
 /* Grid Part 3 */
 
 #grid-section3 .grid {
-
+	grid-gap: 10px;
 }
 
 #grid-section3 .box1 {
@@ -122,15 +122,13 @@
 	color: #000;
 	padding: 20px;
 	text-decoration: none;
-
-
+	transition: 3s;
 }
 
 #transition-section .box a:hover {
 	background-color: #cc0000;
 	color: #fff;
-
-
+	transition: .5s;
 }
 
 /* end Transition Part */
