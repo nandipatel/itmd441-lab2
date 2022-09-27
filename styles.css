@@ -1,8 +1,15 @@
 /* Flexbox Part 1 */
 
 #flex-section1 ul {
-
+	display: inline;
+	list-style-type: none;
+	padding: 5%;
 }
+#flex-section1 li{
+	display: inline;
+	padding: 0% 3%;
+}
+
 
 /* end Flexbox Part 1 */
 
