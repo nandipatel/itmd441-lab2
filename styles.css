@@ -17,23 +17,31 @@
 /* Flexbox Part 2 */
 
 #flex-section2 ul {
-
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	margin: 0;
+	padding: 0;
 }
 
 #flex-section2 li {
-
+	padding: 1% 1%;
 }
 
 #flex-section2 .item1 {
-
+	order: 1;
+	flex-basis: 110%;
 }
 
 #flex-section2 .item2 {
-
+	order: 3;
+	flex-basis: 110%;
 }
 
 #flex-section2 .item3 {
-
+	order: 2;
+	flex-basis: 110%;
 }
 
 /* end Flexbox Part 2 */
